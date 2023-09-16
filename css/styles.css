@@ -161,19 +161,17 @@
   fill: #4d5ae5;
 }
 
-.icons-form {
+/* .icons-form {
   position: absolute;
   top: 50%;
   left: 16px;
   transform: translateY(-50%);
   transition: stroke 150ms ease-out;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* що дозволяє задавати анімаційний ефект для зміни значень властивостей стилю */
   fill: none;
   fill: #2e2f42;
-  /* для зміни кольору іконки при кліку на input 
-  (для цього потрібно прибрати властивість fill у спрайті для іконки) */
-}
+  
+} */
 
 .form-button {
   display: block;

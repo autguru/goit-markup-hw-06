@@ -29,10 +29,6 @@
   text-transform: uppercase;
 }
 
-.logo-part-header {
-  color: #2e2f42;
-}
-
 .burger-btn-menu {
   border: none;
   background-color: transparent;
@@ -42,14 +38,7 @@
   fill: #2f2f37;
 }
 
-/* .burger-btn-menu:hover,
-.burger-btn-menu:focus {
-  stroke: ;
-} */
-
-.icon-burger-btn {
-  transition: stroke 250ms ease-out;
-}
+/* MOBILE MENU */
 
 .mobile-menu {
   position: fixed;
@@ -59,10 +48,18 @@
   height: 100%;
   background-color: #fff;
   z-index: 99999;
-  /* transition: opasity 500ms linear, visibility 500ms;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1); */
-  /* для плавної зміни прозорості і видимості елемента */
+  /* transform: translateX(100%);
+transition: transform 250ms ease-out; */
+}
+
+.menu-nav-mob {
+  justify-content: space-between;
+  display: flex;
+  align-items: column;
+}
+
+.mobile-menu.is-open {
+  transform: translateX(0%);
 }
 
 .close-btn-mob-menu {
@@ -74,36 +71,179 @@
   display: flex;
   justify-content: center;
   padding: 0;
-  /* обнулення дефолтних відступів, які елемент має від браузера */
   top: 24px;
   right: 24px;
   border-radius: 50%;
-  border: 1px solid rgba(0, 0, 0, 0.1);
-  /* дозволяє задати стиль, ширину та колір межі навколо елемента */
-  background-color: #e7e9fc;
-  /* fill: var(--CORNFLOWER, #e7e9fc);
+  border: 1px solid rgba(92, 84, 200, 10);
+  fill: var(--CORNFLOWER, #e7e9fc);
   stroke-width: 1px;
   stroke: var(--NAVY-BLUE, #2e2f42);
-  opacity: 0.1; */
-
+  opacity: 0.1;
+  align-items: center;
   width: 24px;
   height: 24px;
   flex-shrink: 0;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* дозволяє задавати анімаційний ефект для зміни значень властивостей стилю */
 }
 
 .mobile-menu-close-icon {
   fill: none;
-  stroke: #2f2f37;
-  align-items: center;
+  fill: rgba(46, 47, 66, 1);
+  flex-shrink: 0;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* для плавної зміни кольору */
+}
+
+.menu-nav-mob {
+  padding-top: 72px;
+  padding-left: 16px;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+.menu-li-mob {
+  color: var(--NAVY-BLUE, #2e2f42);
+  font-family: Roboto;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+
+.close-btn-mob-menu:hover,
+.close-btn-mob-menu:focus {
+  background-color: #404bbf;
+  border: none;
+}
+.close-btn-mob-menu:hover .mobile-menu-close-icon,
+.close-btn-mob-menu:focus .mobile-menu-close-icon {
+  fill: #ffffff;
+}
+
+.menu-link-studio-mob {
+  color: var(--OCEAN, #404bbf);
+}
+
+.nav-i-adress{
+  display: block;
+  justify-content: space-between;
+  align-items: center; 
+}
+.adress-item-link-mob { 
+  padding-top: auto;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  font-family: Roboto;
+  color: #434455;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.tel-mob {
+  color: var(--IRIS, #4D5AE5);
+
+}
+
+/* .icon-burger-btn {
+  transition: stroke 250ms ease-out;
+}
+.icon-burger-btn {
+  transition: stroke 250ms ease-out;
+} */
+
+/* 
+.logo-part-header {
+  color: #2e2f42;
 }
 
 
 
+
+
+
+
+
+  
+
+.mob-page-navigation {
+  
+}
+
+
+
+
+
+.menu-link {
+    display: block;
+    padding-top: 24px;
+    padding-bottom: 24px;
+  } 
+.mob-menu-link-studio {
+  color: var(--NAVY-BLUE, #2e2f42);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+
+.soc-list-style{
+  display: inline-flex;
+align-items: flex-start;
+gap: 40px;
+padding-top: 48px;
+} */
+
+/* ||||||||||||||||||||| */
+
+/* .menu-link-studio::after {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    width: 48px;
+    background-color: #404bbf;
+    border-radius: 2px;
+  }
+   */
+
+/* .adress-item-link {
+    color: #434455;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5; 
+    
+    letter-spacing: 0.02em;
+    gap: 40px;
+    display: flex;
+    flex-shrink: 0;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+  }
+  .adress-item-link:hover,
+  .adress-item-link:focus {
+    color: #404bbf;
+  }
+  
+  .menu-link {
+    color: #2e2f42;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; 
+    letter-spacing: 0.02em;
+  }
+  .menu-link:hover,
+  .menu-link:focus {
+    color: #404bbf;
+  }  */
 
 /* .page-header {
     border-bottom: 1px solid #e7e9fc; 
