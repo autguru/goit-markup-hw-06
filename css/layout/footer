@@ -1,0 +1,135 @@
+/* .footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.for-logo-p {
+  margin-right: 120px;
+}
+.soc-seti-p {
+  text-align: left;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+
+.soc-list-style {
+  display: flex;
+  gap: 16px;
+}
+.link-footer-hover:hover,
+.link-footer-hover:focus {
+  background-color: #31d0aa;
+}
+.section-footer-text {
+  color: #f4f4fd;
+  background-color: #2e2f42;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+.section-footer-fon {
+  background: #2e2f42;
+  padding: 100px 0;
+}
+.logotype-footer-style {
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.logo-part-footer {
+  color: #f4f4fd;
+}
+
+.link-footer-position {
+  display: inline-block;
+  margin-bottom: 16px;
+}
+.link-soc-seti {
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.list-footer-size {
+  max-width: 264px;
+}
+.page-footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-list {
+  text-decoration: none;
+}
+
+.forma-subscribe {
+  display: inline;
+}
+.sub-tittle {
+  text-align: left;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+}
+.form-footer {
+  display: flex;
+  gap: 24px;
+}
+.input-sub-footer {
+  width: 264px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 4px;
+  border: 1px solid var(--WHITE, #fff);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  color: var(--WHITE, #fff);
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  background-color: transparent;
+  padding-left: 16px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+}
+
+.placeholder {
+  color: var(--WHITE, #fff);
+}
+
+.input-form-footer {
+  margin-left: 80px;
+}
+
+.sub-btn {
+  min-width: 165px;
+  display: inline-flex;
+  padding: 8px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  border: none;
+  border-radius: 4px;
+  background: var(--IRIS, #4d5ae5);
+  color: var(--WHITE, #fff);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.icon-btn-sub {
+  margin-left: 16px;
+} */

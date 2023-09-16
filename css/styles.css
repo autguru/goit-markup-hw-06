@@ -218,7 +218,7 @@
   /* для плавної зміни прозорості і видимості елемента */
 }
 
-.backdrop .is-open {
+.backdrop.is-open {
   opacity: 1;
   visibility: hidden;
   pointer-events: none;
@@ -260,10 +260,6 @@
   fill: #ffffff;
 }
 
-/* ??? .close-btn:hover + .close-btn-icons {
-  fill: #ffffff;
-} */
-
 .close-btn-icons {
   align-items: center;
   stroke: #212121;
@@ -288,52 +284,12 @@
   margin-bottom: 16px;
 }
 
-/******  COMMON STYLES  ******/
-
-.list {
-  list-style-type: none;
-}
-.link {
-  text-decoration: none;
-  display: block;
-}
-/* a {
-  text-decoration: none;
-} */
-button {
-  cursor: pointer;
-}
-body {
-  font-family: Roboto, sans-serif;
-  color: #434455;
-  background-color: #ffffff;
-}
-h1,
-h2,
-h3 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-ul,
-ol,
-p {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding-left: 0;
-}
-img {
-  display: block;
-}
-.container {
-  width: 1158px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
+/******  COMMON STYLES ******/
 
 /******* HEADER ******/
 
-.page-header {
-  border-bottom: 1px solid #e7e9fc; /* оформлення нижнього краю хедера */
+/* .page-header {
+  border-bottom: 1px solid #e7e9fc; 
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -349,7 +305,7 @@ img {
 }
 .page-navigation {
   display: flex;
-  align-items: center; /* вирівнювання навігації та контактів по вертикалі */
+  align-items: center; 
 }
 
 .header-logo-right {
@@ -375,9 +331,9 @@ img {
   color: #404bbf;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5; 
   letter-spacing: 0.02em;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); /* для плавної зміни кольору текстового контенту */
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 
 .menu-link-studio::after {
@@ -397,7 +353,7 @@ img {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.17; /* 116.667% */
+  line-height: 1.17; 
   letter-spacing: 0.03em;
   text-transform: uppercase;
   align-items: center;
@@ -410,12 +366,12 @@ img {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5; 
   letter-spacing: 0.02em;
   gap: 40px;
   display: flex;
   flex-shrink: 0;
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); /* для плавної зміни кольору текстового контенту */
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
 .adress-item-link:hover,
 .adress-item-link:focus {
@@ -426,17 +382,18 @@ img {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5; 
+  
   letter-spacing: 0.02em;
 }
 .menu-link:hover,
 .menu-link:focus {
   color: #404bbf;
-}
+} */
 
 /****** HERO SECTION  ******/
 
-.section-hero-container {
+/* .section-hero-container {
   background-color: #2e2f42;
   flex-shrink: 0;
   padding: 188px 0;
@@ -470,7 +427,7 @@ img {
   text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.07; /* 107.143% */
+  line-height: 1.07; 
   letter-spacing: 0.02em;
   margin-right: auto;
   margin-left: auto;
@@ -481,7 +438,7 @@ img {
   background-color: #4d5ae5;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5; 
   letter-spacing: 0.04em;
   margin-right: auto;
   margin-left: auto;
@@ -493,11 +450,11 @@ img {
 .order-serv-btn:hover,
 .order-serv-btn:focus {
   background-color: #404bbf;
-}
+} */
 
 /****** SOLUTIONS ******/
 
-.wrapper {
+/* .wrapper {
   width: 264px;
   height: 112px;
   margin-bottom: 8px;
@@ -534,18 +491,13 @@ img {
 
 .solution-text-size {
   width: calc((100% - 72px) / 4);
-  /* Для 1 li в класі заданий стиль width: calc((100% - 72px) / 4);
-  для визначення ширини пункту списку (від загальної ширини екрану віднімаємо суму відступів між пунктами
-   і ділимо це на кількість пунктів списку)
-   (можна також використовувати width calc((100% - 3 * 24px) / 4) 
-   або flex-basis: calc((100% - 3 * 24px) / 4) або flex-basis: calc((100% - 72px) / 4)) */
 }
 
 .section-solution-title {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2; /* 120% */
+  line-height: 1.2; 
   letter-spacing: 0.02em;
   margin-bottom: 8px;
 }
@@ -554,35 +506,22 @@ img {
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5; 
   letter-spacing: 0.02em;
 }
-
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  margin: -1px;
-  border: 0;
-  padding: 0;
-  white-space: nowrap;
-  clip-path: inset(100%);
-  clip: rect(0 0 0 0);
-  overflow: hidden;
-}
+ */
 
 /****** TEAM ******/
 
-.section-our-team {
+/* .section-our-team {
   background-color: #f4f4fd;
   padding: 120px 0;
 }
 .our-team-title {
   color: #2e2f42;
-  /* Header 2 */
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11; /* 111.111% */
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 8px;
@@ -627,7 +566,6 @@ img {
   align-items: center;
   justify-content: center;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* для плавної зміни кольору фону елемента */
 }
 
 .soc-icons {
@@ -648,24 +586,21 @@ img {
 
 .our-team-names {
   color: #2e2f42;
-  /* Header 3 */
+
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2; /* 120% */
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  /* margin-bottom: 8px; */
   text-align: center;
 }
 
 .our-team-describtion {
   color: #434455;
   text-align: center;
-  /* Body */
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  /* margin-bottom: 8px; */
 }
 .our-team-li-position {
   display: flex;
@@ -673,34 +608,26 @@ img {
   justify-content: center;
   align-items: center;
   gap: 8px;
-}
+} */
 
 /****** OUR PORTFOLIO ******/
 
-.portfolio-img-cover {
+/* .portfolio-img-cover {
   position: relative;
   top: 0;
   font-size: 16px;
   overflow: hidden;
 }
-/* .portfolio-img-cover:hover,
-.portfolio-img-cover:focus { */
-/* transform: translateY(0%); */
-/* При ховері на елемент списку змінюється стиль transform  */
 
 .our-portfolio-items {
   color: #2e2f42;
   background: #ffffff;
-  /* Header 3 */
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2; /* 120% */
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  /* box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08); */
-  /* transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1); */
-  /* плавної появи тіні */
 }
+
 .overlay {
   position: absolute;
   top: 0;
@@ -709,9 +636,8 @@ img {
   height: 100%;
   transform: translateY(100%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* дозволяє задавати анімаційний ефект для зміни значень властивостей стилю */
   font-size: 16px;
-  line-height: 1.5; /* простору між рядками */
+  line-height: 1.5; 
   letter-spacing: 0.02em;
   color: #f4f4fd;
   padding: 40px 32px;
@@ -733,9 +659,8 @@ img {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  transform: translateY(0%); /* змінює позицію елемента вздовж осі Y */
+  transform: translateY(0%);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* дозволяє задавати анімаційний ефект для змін */
 }
 
 .section-our-portfolio {
@@ -749,36 +674,28 @@ img {
 }
 
 .li-position-horizont {
-  display: flex; /* розміщення елементів списку в рядок по горизонталі */
-  flex-wrap: wrap; /* для переносу елементів списку на новий рядок */
-  column-gap: 24px; /* для визначення горизонтальних відступів між пунктами списку */
-  row-gap: 48px; /* для визначення вертикальних відступів між елементами списку якщо вони 
-  переносяться на новий рядок
-  (можна використовувати margin-bottom: 48px для тега li у класі, 
-  для трьох останіх пунктів списку використовуємо margin-bottom: 0 для обнулення відступів) */
+  display: flex; 
+  flex-wrap: wrap; 
+  column-gap: 24px; 
+  row-gap: 48px; 
 }
 
 .portfolio-li-style {
-  width: calc((100% - 48px) / 3);
-  /* Для першого пункту списку в класі заданий стиль width: calc((100% - 48px) / 3); 
-для визначення ширини для елемента списку (від загальної ширини екрану віднімаємо суму 
-відступів між пунктами і ділимо це на кількість пунктів списку в одному рядку) */
+  width: calc((100% - 48px) / 3);  
 }
 
 .container-portfolio-div {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc; /* визначення стилю обводки по периметру контейнера */
-  border-top: none; /* скидання стилів обводки для верхнього краю контейнера */
-  /* margin-bottom: 8px; */
+  border: 1px solid #e7e9fc; 
+  border-top: none; 
 }
 
 .our-portfolio-title {
   color: #2e2f42;
   text-align: center;
-  /* Header 2 */
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2; /* 120% */
+  line-height: 1.2; 
   letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
@@ -787,12 +704,11 @@ img {
 .main-title {
   color: #2e2f42;
   text-align: center;
-  /* Header 2 */
   font-family: Roboto;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
-  line-height: 1.11; /* 111.111% */
+  line-height: 1.11; 
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
@@ -800,40 +716,30 @@ img {
 .our-portfolio-describtion {
   color: #434455;
   background: #ffffff;
-  /* Body */
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5; 
   letter-spacing: 0.02em;
-  /* display: flex; can I wright here?  */
-  /* tyt putannia */
-  /* align-content: space-between;
-  flex-wrap: wrap; */
-}
+} */
 
 /****** FOOTER ******/
 
-.footer-container {
+/* .footer-container {
   display: flex;
   align-items: baseline;
-  /* що встановлює вирівнювання елементів у поперечному напрямку
-  вздовж головної осі контейнера 
- відносно базової лінії тексту першого рядка кожного елемента  */
 }
-/* div який огортає логотип і параграф */
+
 .for-logo-p {
   margin-right: 120px;
-  /* відступ між елементами */
 }
 .soc-seti-p {
   text-align: left;
   color: #fff;
-  /* Body Medium */
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  margin-bottom: 16px; /* відступ між елементами списку */
+  margin-bottom: 16px;
 }
 
 .soc-list-style {
@@ -849,7 +755,7 @@ img {
   background-color: #2e2f42;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 .section-footer-fon {
@@ -888,7 +794,7 @@ img {
 .footer-list {
   text-decoration: none;
 }
-/* FORMA-SUBSCRIBE */
+
 
 .forma-subscribe {
   display: inline;
@@ -896,10 +802,9 @@ img {
 .sub-tittle {
   text-align: left;
   color: #fff;
-  /* Body Medium */
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
@@ -917,20 +822,15 @@ img {
   color: var(--WHITE, #fff);
   font-size: 12px;
   font-weight: 400;
-  line-height: 1.5; /* 200% */
+  line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: transparent;
-  /* визначення кольору фону */
   padding-left: 16px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-  /* встановлює тінь на елемент */
 }
 
 .placeholder {
-  /* width: 18px; */
-  /* border: 1.25px; */
   color: var(--WHITE, #fff);
-  /* rotate: -90 deg; */
 }
 
 .input-form-footer {
@@ -949,15 +849,14 @@ img {
   background: var(--IRIS, #4d5ae5);
   color: var(--WHITE, #fff);
   text-align: center;
-  /* Button Text */
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 1.5; /* 150% */
+  line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
 }
 .icon-btn-sub {
   margin-left: 16px;
-}
+} */
