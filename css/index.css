@@ -1,10 +1,10 @@
 /* BASE */
-@import "./base/common.css";
-@import "./base/container.css";
+@import './base/common.css';
+@import './base/container.css';
 
 /* UTILS */
-@import "./utils/visually-hidden.css";
+@import './utils/visually-hidden.css';
 
 /* LAYOUT */
-@import "./layout/header.css";
-
+@import './layout/header.css';
+@import './layout/hero-section.css';
