@@ -5,14 +5,14 @@
     display: none;
   }
 
-.baner {
-  background-image: linear-gradient(
-      rgba(46, 47, 66, 0.7),
-      rgba(46, 47, 66, 0.7)
-    ),
-    url('../../images/retina/hero/people-mob.jpg');
-  background-size: cover;
-}
+  .baner {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../../images/retina/hero/people-mob.jpg');
+    background-size: cover;
+  }
 }
 
 @media screen and (min-resolution: 129dpi) and (max-width: 768px),
@@ -29,7 +29,6 @@
 }
 
 /* FOR TABLET */
-
 
 @media screen and (min-width: 768px) {
   .baner {
@@ -122,7 +121,6 @@
   margin-top: 72px;
   margin: 72px 0 0 0;
 }
-
 
 /* 
 
