@@ -1,10 +1,9 @@
-@media screen and (max-width: 320px) {
+/* FOR MOBILE */
+
+@media screen and (max-width: 768px) {
   .menu {
     display: none;
   }
-}
-
-/* FOR MOBILE */
 
 .baner {
   background-image: linear-gradient(
@@ -14,10 +13,11 @@
     url('../../images/retina/hero/people-mob.jpg');
   background-size: cover;
 }
+}
 
-@media screen and (min-resolution: 129dpi) and (max-width: 320px),
-  screen and (min-resolution: 2dppi) and (max-width: 320px),
-  screen and (min-device-pixel-ratio: 2) and (max-width: 320px) {
+@media screen and (min-resolution: 129dpi) and (max-width: 768px),
+  screen and (min-resolution: 2dppi) and (max-width: 768px),
+  screen and (min-device-pixel-ratio: 2) and (max-width: 768px) {
   .baner {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -30,6 +30,7 @@
 
 /* FOR TABLET */
 
+
 @media screen and (min-width: 768px) {
   .baner {
     background-image: linear-gradient(
@@ -41,9 +42,9 @@
   }
 }
 
-@media screen and (min-resolution: 129dpi) and (max-width: 768px),
-  screen and (min-resolution: 2dppi) and (max-width: 768px),
-  screen and (min-device-pixel-ratio: 2) and (max-width: 768px) {
+@media screen and (min-resolution: 129dpi) and (min-width: 768px),
+  screen and (min-resolution: 2dppi) and (min-width: 768px),
+  screen and (min-device-pixel-ratio: 2) and (min-width: 768px) {
   .baner {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
@@ -89,7 +90,6 @@
 
 .mob-hero-container {
   width: 100%;
-  max-width: 320px;
   max-height: 432px;
   flex-shrink: 0;
 }
@@ -123,11 +123,6 @@
   margin: 72px 0 0 0;
 }
 
-@media screen and (max-width: 768px) {
-  .menu {
-    display: none;
-  }
-}
 
 /* 
 
