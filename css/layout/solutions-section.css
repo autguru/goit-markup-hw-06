@@ -7,7 +7,7 @@
     background: #fff;
     padding: 96px 0;
     max-width: 320px;
-    max-height: 7216px;
+    max-height: 888px;
   }
 
   .solution-list-style {
@@ -36,7 +36,7 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
-
+    margin-bottom: 72px;
     color: #434455;
     font-family: Roboto;
     font-size: 16px;
@@ -46,7 +46,9 @@
   }
 }
 
-@media screen and (max-width: 1200px) {
+/* FOR TABLET */
+
+@media screen and (min-width: 768px) {
   .wrapper {
     display: none;
   }
@@ -55,18 +57,19 @@
     background: #fff;
     padding: 96px 0;
     max-width: 768px;
-    max-height: 7216px;
-    
+    max-height: 505px;
   }
 
   .solution-list-style {
-    display: inline-block;
+    display: flex;
     margin-bottom: 72px;
     max-width: 768px;
     max-height: 4400px;
     flex-direction: row;
-     flex-wrap: wrap;
-     gap: 8px;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
   }
 
   .solution-li-size {
@@ -76,13 +79,6 @@
     flex-direction: column;
     align-items: flex-start;
     gap: 8px;
-  }
-  .solution-list-style {
-    flex-direction: row;
-     flex-wrap: wrap;
-     gap: 24px;
-  }
-  .solution-li-size{
     width: calc((100% - 24px) / 2);
   }
 
@@ -110,7 +106,6 @@
     letter-spacing: 0.02em;
     margin-bottom: 72px;
     margin-right: 24px;
-
   }
 }
 /* FOR DESKTOP */
@@ -143,15 +138,27 @@
 
   .section-our-solution {
     background: #fff;
-    padding: 120px 0;
+    padding: 0;
+    max-width: 1128px;
+    max-height: 228px;
   }
 
   .solution-list-style {
     display: flex;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    max-width: 1128px;
+    max-height: 224px;
+    flex-direction: row;
+    flex-wrap: wrap;
     gap: 24px;
+
+    justify-content: space-between;
   }
 
-  .solution-text-size {
+  .solution-li-size {
+    display: flex;
+    column-gap: 88px;
     width: calc((100% - 72px) / 4);
   }
 
@@ -164,6 +171,7 @@
     margin-bottom: 8px;
   }
   .section-solution-text {
+    width: 264px;
     color: #434455;
     font-size: 16px;
     font-style: normal;
