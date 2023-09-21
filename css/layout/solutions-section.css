@@ -67,8 +67,6 @@
     max-height: 4400px;
     flex-direction: row;
     flex-wrap: wrap;
-    flex-direction: row;
-    flex-wrap: wrap;
     gap: 24px;
   }
 
