@@ -139,7 +139,7 @@
   .section-our-solution {
     background: #fff;
     padding: 0;
-    max-width: 1128px;
+    /* max-width: 1128px; */
     max-height: 228px;
   }
 
