@@ -166,11 +166,11 @@
   color: var(--IRIS, #4d5ae5);
 }
 
-.soc-list-style {
+.soc-list-style-mob-menu {
   display: inline-flex;
   align-items: flex-start;
   gap: 40px;
-  padding-top: 48px;
+  /* padding-top: 48px; */
 }
 
 .soc-seti {
