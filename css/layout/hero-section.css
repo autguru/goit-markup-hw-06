@@ -13,6 +13,52 @@
       url('../../images/retina/hero/people-mob.jpg');
     background-size: cover;
   }
+
+  .section-hero {
+    padding: 76px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+  }
+
+  .hero-container {
+    width: 100%;
+    max-height: 432px;
+    flex-shrink: 0;
+  }
+
+  .hero-title {
+    width: 220px;
+    display: flex;
+    text-align: center;
+    color: var(--WHITE, #fff);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+  }
+
+  .hero-btn {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--IRIS, #4d5ae5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--WHITE, #fff);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    margin-top: 72px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 @media screen and (min-resolution: 129dpi) and (max-width: 768px),
@@ -38,6 +84,56 @@
       ),
       url('../../images/retina/hero/people-tablet.jpg');
     background-size: cover;
+  }
+
+  .section-hero {
+    padding: 112px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+  }
+
+  .hero-container {
+    width: 100%;
+    flex-shrink: 0;
+  }
+
+  .hero-title {
+    width: 496px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+    color: var(--WHITE, #fff);
+    text-align: center;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+  }
+
+  .hero-btn {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px 32px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--IRIS, #4d5ae5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--WHITE, #fff);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    margin-top: 72px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
@@ -78,21 +174,68 @@
       url('../../images/retina/hero/people-desktop@2x.jpg');
     background-size: cover;
   }
+
+  .section-hero {
+    padding: 76px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0 auto;
+  }
+
+  .hero-container {
+    width: 100%;
+    max-height: 432px;
+    flex-shrink: 0;
+  }
+
+  .hero-title {
+    width: 220px;
+    display: flex;
+    text-align: center;
+    color: var(--WHITE, #fff);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+  }
+
+  .hero-btn {
+    display: inline-flex;
+    padding: 16px 32px;
+    align-items: center;
+    gap: 10px;
+    border-radius: 4px;
+    background: var(--IRIS, #4d5ae5);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: var(--WHITE, #fff);
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    margin-top: 72px;
+    border: none;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
-.mob-hero {
-  padding: 76px 16px;
+/* .section-hero {
+  padding: 76px 0;
   background-repeat: no-repeat;
   background-position: center;
   margin: 0 auto;
 }
 
-.mob-hero-container {
+.hero-container {
   width: 100%;
   max-height: 432px;
   flex-shrink: 0;
-}
-.mob-hero-title {
+} */
+
+/* .hero-title {
   display: flex;
   text-align: center;
   color: var(--WHITE, #fff);
@@ -102,9 +245,9 @@
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-}
+} */
 
-.hero-btn-mob {
+/* .hero-btn {
   display: inline-flex;
   padding: 16px 32px;
   align-items: center;
@@ -120,11 +263,9 @@
   letter-spacing: 0.04em;
   margin-top: 72px;
   margin: 72px 0 0 0;
-}
+} */
 
-/* 
-
-.order-serv-btn {
+/* .order-serv-btn {
   color: #ffffff;
   background-color: #4d5ae5;
   font-size: 16px;
@@ -136,9 +277,9 @@
   align-items: center;
   margin-top: 48px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 .order-serv-btn:hover,
 .order-serv-btn:focus {
   background-color: #404bbf;
-} */
+}

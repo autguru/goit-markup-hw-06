@@ -61,6 +61,8 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-align: center;
+    display: flex;
+    justify-content: center;
   }
 
   .logo-part-footer {
@@ -68,10 +70,7 @@
   }
 
   .link-footer-position {
-    justify-content: center;
-    display: inline-block;
-    padding-bottom: 16px;
-    justify-content: center;
+    margin-bottom: 16px;
   }
 
   .link-soc-seti {
@@ -100,7 +99,8 @@
     gap: 72px;
   }
   .input-sub-footer {
-    width: 264px;
+    margin-bottom: 16px;
+    width: 288px;
     height: 40px;
     flex-shrink: 0;
     border-radius: 4px;
@@ -127,7 +127,9 @@
   .sub-btn {
     width: 165px;
     height: 40px;
-    display: inline-flex;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
     padding: 8px 24px;
     justify-content: center;
     align-items: center;
@@ -144,7 +146,6 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    margin: 0 50px;
   }
 
   .icon-btn-sub {
@@ -156,26 +157,21 @@
 
 @media screen and (min-width: 768px) {
   .section-footer-fon {
-    width: 768px;
-    height: 456px;
+    /* width: 768px;
+    height: 456px; */
     flex-shrink: 0;
     /* padding: 96px 164px 96px 108px; */
     background: #2e2f42;
   }
 
   .footer-container {
-    /* max-width: 525px;
-    max-height: 285px; */
-    display: block;
-    align-items: center;
-  }
-
-  .for-logo-p {
-    width: 264px;
-    height: 72px;
-    justify-content: flex-start;
-    padding-top: 96px;
-    /* padding-left: 152px; */
+    max-width: 584px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* align-items: center; */
+    padding-top: 97.5px;
+    padding-bottom: 96px;
   }
 
   /* .socseti-div {
@@ -192,6 +188,7 @@
   }
 
   .soc-list-style-footer {
+    margin-left: 24px;
     margin-top: 16px;
     display: flex;
     gap: 16px;
@@ -247,7 +244,7 @@
     display: block;
   }
   .sub-tittle {
-    text-align: center;
+    text-align: left;
     color: #fff;
     font-size: 16px;
     font-weight: 500;
@@ -256,7 +253,7 @@
     margin-bottom: 16px;
   }
   .form-footer {
-    display: block;
+    /* display: block; */
     gap: 72px;
   }
   .input-sub-footer {

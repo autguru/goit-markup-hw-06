@@ -50,8 +50,6 @@
   color: #2e2f42;
 }
 
-
-
 /* MOBILE MENU */
 
 .mobile-menu {
@@ -207,8 +205,6 @@
 
 /* MOBILE MENU */
 
-
-
 /* FOR TABLET */
 
 @media screen and (min-width: 767px) {
@@ -229,7 +225,7 @@
     /* width: 768px; */
     flex-shrink: 0;
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
   }
 
   .page-navigation {
@@ -239,18 +235,17 @@
     /* max-width: 500px; */
   }
 
-  
-
   .header-logo-right {
     margin-left: 16px;
     margin-right: 120px;
     display: flex;
   }
+
   .menu-nav-list {
     display: flex;
     gap: 40px;
   }
-  
+
   .menu-link {
     display: inline-flex;
     padding-top: 24px;
@@ -274,12 +269,12 @@
   .adress-link {
     display: flex;
     column-gap: 14px;
-    width: 125px;
-    height: 40px;
+    /* width: 125px;
+    height: 40px; */
     padding: 16px 16px 16px 0;
   }
 
-  .adress-item-link-ul{
+  .adress-item-link-ul {
     display: flex;
     flex-direction: column;
     gap: 12px;
@@ -326,12 +321,19 @@
 
 /* FOR DESKTOP */
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1158px) {
   .page-header-container {
     max-width: 1158px;
-
+    align-items: center;
   }
-  .adress-item-link-ul{
+
+  .header-logo-right {
+    /* margin-left: 16px; */
+    margin-right: 76px;
+    display: flex;
+  }
+
+  .adress-item-link-ul {
     display: flex;
     flex-direction: row;
     gap: 40px;
@@ -339,6 +341,14 @@
   .adress-item-link {
     display: inline-block;
     column-gap: 40px;
+  }
+  .adress-link {
+    display: flex;
+    column-gap: 14px;
+    /* width: 125px;
+    height: 40px; */
+    /* padding: 16px 16px 16px 0; */
+    margin-left: auto;
   }
 
   .logotype {
