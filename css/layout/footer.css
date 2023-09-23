@@ -165,7 +165,6 @@
   }
 
   .footer-container {
-    max-width: 584px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -174,9 +173,6 @@
     padding-bottom: 96px;
   }
 
-  /* .socseti-div {
-    margin-top: 72px;
-  } */
 
   .soc-seti-p {
     text-align: center;
@@ -309,61 +305,20 @@
   }
 }
 
+
+
 @media screen and (min-width: 1200px) {
+  
   .section-footer-fon {
-    width: 1440px;
-    height: 312px;
-    flex-shrink: 0;
     background: #2e2f42;
-  }
-
-  .for-logo-p {
-    width: 264px;
-    height: 72px;
-    justify-content: flex-start;
-    padding-top: 96px;
-    /* padding-left: 152px; */
-  }
-
-  .socseti-div {
-    margin-left: 120px;
-    margin-right: 80px;
-  }
-
-  .soc-seti-p {
-    text-align: center;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 500;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-  }
-
-  .soc-list-style-footer {
-    margin-top: 16px;
-    display: flex;
-    gap: 16px;
-    justify-content: center;
   }
 
   .footer-container {
     display: flex;
-    align-items: baseline;
-    margin-bottom: 72px;
-    max-height: 312px;
+    flex-wrap: nowrap;
+    padding-top: 97.5px;
+    padding-bottom: 96px;
   }
-
-  .for-logo-p {
-    width: 264px;
-    height: 72px;
-    justify-content: flex-start;
-    padding-top: 96px;
-    /* padding-left: 152px; */
-  }
-
-  /* .socseti-div {
-  margin-top: 72px;
-} */
 
   .soc-seti-p {
     text-align: center;
@@ -375,6 +330,7 @@
   }
 
   .soc-list-style-footer {
+    margin-left: 24px;
     margin-top: 16px;
     display: flex;
     gap: 16px;
@@ -414,6 +370,7 @@
     justify-content: center;
     display: inline-block;
     padding-bottom: 16px;
+    justify-content: center;
   }
 
   .link-soc-seti {
@@ -425,11 +382,11 @@
   }
 
   .forma-subscribe {
-    margin-top: 72px;
+    margin-left: 80px;
     display: block;
   }
   .sub-tittle {
-    text-align: center;
+    text-align: left;
     color: #fff;
     font-size: 16px;
     font-weight: 500;
@@ -437,12 +394,10 @@
     letter-spacing: 0.02em;
     margin-bottom: 16px;
   }
-
   .form-footer {
-    display: inline-flex;
-    gap: 24px;
+    /* display: block; */
+    gap: 72px;
   }
-
   .input-sub-footer {
     width: 264px;
     height: 40px;

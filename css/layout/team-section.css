@@ -133,7 +133,7 @@
   }
 
   .team-container {
-    width: 584px;
+    width: 1158px;
   }
 
   .our-team-title {
@@ -189,12 +189,11 @@
 
 @media screen and (min-width: 1200px) {
   .section-our-team {
-    flex-shrink: 0;
     padding-top: 120px;
     padding-bottom: 120px;
     display: flex;
-    justify-content: center;
-    gap: 24px;
+    /* justify-content: center;
+    gap: 24px; */
     background-color: #f4f4fd;
   }
 
@@ -210,17 +209,18 @@
     text-transform: capitalize;
     text-align: center;
     margin-bottom: 72px;
-    padding-top: 96px;
+    /* padding-top: 96px; */
   }
 
   .team-list-location {
-    max-width: 1128px;
-    max-height: 427px;
-    display: inline-flex;
-    flex-direction: column;
+    /* max-width: 1128px;
+    max-height: 427px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
     align-items: center;
     gap: 24px;
-    padding-bottom: 96px;
+    /* padding-bottom: 96px; */
   }
 
   .our-team-list {

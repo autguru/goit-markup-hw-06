@@ -97,15 +97,15 @@
 
   .section-our-portfolio {
     background: #ffffff;
-    max-width: 768px;
-    max-height: 1708px;
+    /* max-width: 768px;
+    max-height: 1708px; */
     padding: 96px 0;
   }
 
-  .section-our-portfolio-container {
+  /* .section-our-portfolio-container {
     max-width: 736px;
     max-height: 1516px;
-  }
+  } */
 
   .section-portfolio-title {
     margin-bottom: 72px;
@@ -186,8 +186,8 @@
 
   .section-our-portfolio {
     background: #ffffff;
-    max-width: 1440px;
-    max-height: 3467px;
+    /* max-width: 1440px;
+    max-height: 3467px; */
     padding: 120px 0;
   }
 
