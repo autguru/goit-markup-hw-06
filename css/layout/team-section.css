@@ -130,6 +130,10 @@
     background-color: #f4f4fd;
   }
 
+  .team-container {
+    width: 584px;
+  }
+
   .our-team-title {
     color: #2e2f42;
     font-size: 36px;
