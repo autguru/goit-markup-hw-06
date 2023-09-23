@@ -188,8 +188,6 @@
 
 @media screen and (min-width: 1200px) {
   .section-our-team {
-    max-width: 1440px;
-    max-height: 780px;
     flex-shrink: 0;
     padding-bottom: 96px;
     display: flex;
@@ -197,6 +195,11 @@
     gap: 24px;
     margin-bottom: 72px;
     background-color: #f4f4fd;
+  }
+
+  team-container{
+    max-width: 1440px;
+ 
   }
   .our-team-title {
     color: #2e2f42;
