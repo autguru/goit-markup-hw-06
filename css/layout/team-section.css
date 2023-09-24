@@ -137,6 +137,9 @@
   }
 
   .our-team-title {
+    /* width: 162px; */
+    margin-left: auto;
+    margin-right: auto;
     color: #2e2f42;
     font-size: 36px;
     font-weight: 700;
@@ -155,11 +158,16 @@
     flex-wrap: wrap;
     gap: 64px 24px;
     align-items: center;
+    /* width: calc((100% - 24px) / 2); */
   }
 
   .our-team-list {
     background-color: #ffffff;
   }
+
+  /* .portfolio-li-style {
+    
+  } */
 
   .li-our-team {
     display: flex;

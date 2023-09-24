@@ -1,0 +1,83 @@
+/* BACKDROP */
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--NAVY-BLUE-modal, rgba(46, 47, 66, 0.4));
+    z-index: 99999;
+    transition: opasity 500ms linear, visibility 500ms;
+    /* opacity: 0.4;
+    visibility: hidden;pointer:pointer-events: none; */
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* для плавної зміни прозорості і видимості елемента */
+  }
+  
+  .backdrop.is-open {
+    opacity: 1;
+    visibility: hidden;
+    pointer-events: none;
+  }
+  
+  /*        BUTTON          */
+  
+  .close-btn {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    /* обнулення дефолтних відступів, які елемент має від браузера */
+    top: 24px;
+    right: 24px;
+    border-radius: 50%;
+    background-color: #e7e9fc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    /* дозволяє задати стиль, ширину та колір межі навколо елемента */
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    line-height: 0;
+    /* stroke: #e7e9fc;
+    stroke-width: 1px; */
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* дозволяє задавати анімаційний ефект для зміни значень властивостей стилю */
+  }
+  
+  .close-btn:hover,
+  .close-btn:focus {
+    background-color: #404bbf;
+    border: none;
+  }
+  .close-btn:hover .close-btn-icons,
+  .close-btn:focus .close-btn-icons {
+    fill: #ffffff;
+  }
+  
+  .close-btn-icons {
+    align-items: center;
+    stroke: #212121;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    /* для плавної зміни кольору */
+  }
+  
+  .form-comment:focus {
+    border-color: #4d5ae5;
+    outline: transparent;
+  }
+  
+  .tittle-form {
+    color: var(--NAVY-BLUE, #2e2f42);
+    text-align: center;
+    /* Body Medium */
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5; /* 150% */
+    letter-spacing: 0.02em;
+    width: 360px;
+    margin-bottom: 16px;
+  }
