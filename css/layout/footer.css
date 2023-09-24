@@ -173,7 +173,6 @@
     padding-bottom: 96px;
   }
 
-
   .soc-seti-p {
     text-align: center;
     color: #fff;
@@ -305,23 +304,46 @@
   }
 }
 
-
-
 @media screen and (min-width: 1200px) {
-  
   .section-footer-fon {
     background: #2e2f42;
   }
 
   .footer-container {
+    max-height: 312px;
     display: flex;
     flex-wrap: nowrap;
     padding-top: 97.5px;
     padding-bottom: 96px;
   }
 
-  .soc-seti-p {
+  .for-logo-p {
+    /* justify-content: center; */
+    /* padding: 0 16px; */
+    margin-right: 120px;
+  }
+
+  .logotype-footer-style {
+    color: #4d5ae5;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     text-align: center;
+  }
+
+  .logo-part-footer {
+    color: #f4f4fd;
+  }
+
+  .socseti-div {
+    margin: 0;
+  }
+
+  .soc-seti-p {
+    text-align: start;
     color: #fff;
     font-size: 16px;
     font-weight: 500;
@@ -330,7 +352,7 @@
   }
 
   .soc-list-style-footer {
-    margin-left: 24px;
+    margin-left: 0;
     margin-top: 16px;
     display: flex;
     gap: 16px;
@@ -351,21 +373,6 @@
     letter-spacing: 0.02em;
   }
 
-  .logotype-footer-style {
-    color: #4d5ae5;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 1.17;
-    letter-spacing: 0.03em;
-    text-transform: uppercase;
-    text-align: center;
-  }
-
-  .logo-part-footer {
-    color: #f4f4fd;
-  }
-
   .link-footer-position {
     justify-content: center;
     display: inline-block;
@@ -378,29 +385,36 @@
   }
 
   .list-footer-size {
-    max-width: 288px;
+    max-width: 264px;
   }
 
   .forma-subscribe {
     /* margin-left: 80px; */
-    /* display: flex; */
     flex-wrap: nowrap;
-
   }
   .sub-tittle {
+    margin-left: 80px;
+    width: 75px;
+    height: 24px;
     text-align: left;
     color: #fff;
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    margin-bottom: 16px;
+    /* margin-bottom: 16px; */
   }
+
   .form-footer {
-    /* padding-left: 80px; */
-    /* display: block; */
-    gap: 72px;
+    padding-left: 80px;
+    display: flex;
+    gap: 24px;
   }
+
+  .input-form-footer {
+    margin-left: 80px;
+  }
+
   .input-sub-footer {
     width: 264px;
     height: 40px;
@@ -429,7 +443,7 @@
   .sub-btn {
     width: 165px;
     height: 40px;
-    display: inline-flex;
+    display: flex;
     padding: 8px 24px;
     justify-content: center;
     align-items: center;
@@ -446,7 +460,7 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    margin: 0 50px;
+    /* margin: 0 50px; */
   }
 
   .icon-btn-sub {

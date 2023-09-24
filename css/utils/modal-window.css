@@ -61,7 +61,6 @@
     margin-top: 40px;
   }
 
-
   .backdrop {
     position: fixed;
     top: 0;
@@ -83,7 +82,6 @@
         visibility: hidden;
         pointer-events: none;
       }  */
-
 
   .close-btn:hover,
   .close-btn:focus {
@@ -186,7 +184,7 @@
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.17; 
+    line-height: 1.17;
     letter-spacing: 0.04em;
   }
 
