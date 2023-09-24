@@ -165,7 +165,7 @@
   }
 
   .footer-container {
-    margin-left: 80px;
+    /* margin-left: 80px; */
     gap: 72px 24px;
     display: flex;
     flex-direction: row;
@@ -312,6 +312,7 @@
   }
 
   .footer-container {
+    gap: unset;
     max-height: 312px;
     display: flex;
     flex-wrap: nowrap;
@@ -320,9 +321,10 @@
   }
 
   .for-logo-p {
+    max-width: 288px;
     /* justify-content: center; */
     /* padding: 0 16px; */
-    margin-right: 120px;
+    /* margin-right: 76px; */
   }
 
   .logotype-footer-style {
@@ -341,7 +343,7 @@
   }
 
   .socseti-div {
-    margin: 0;
+    margin: auto;
   }
 
   .soc-seti-p {
@@ -395,7 +397,7 @@
     flex-wrap: nowrap;
   }
   .sub-tittle {
-    margin-left: 80px;
+    /* margin-left: 80px; */
     width: 75px;
     height: 24px;
     text-align: left;
@@ -408,9 +410,10 @@
   }
 
   .form-footer {
-    padding-left: 80px;
+    /* padding-left: 80px; */
     display: flex;
     gap: 24px;
+    align-items: center;
   }
 
   .input-form-footer {
