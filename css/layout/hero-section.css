@@ -204,7 +204,7 @@
   }
 
   .hero-btn {
-    display: inline-flex;
+    display: flex;
     padding: 16px 32px;
     align-items: center;
     gap: 10px;
