@@ -191,16 +191,15 @@
   }
 
   .hero-title {
-    width: 496px;
-    display: flex;
-    text-align: center;
-    color: var(--WHITE, #fff);
-    text-align: center;
-    font-size: 36px;
-    font-weight: 700;
-    line-height: 1.11;
-    letter-spacing: 0.02em;
-    text-transform: capitalize;
+    max-width: 496px;
+    color: #fff;
+  text-align: center;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07; 
+  letter-spacing: 0.02em;
+  margin-right: auto;
+  margin-left: auto;
   }
 
   .hero-btn {
