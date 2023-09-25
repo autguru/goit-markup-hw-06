@@ -2,8 +2,8 @@
 
 @media screen and (max-width: 767px) {
   .section-footer-fon {
-    max-width: 320px;
-    max-height: 664px;
+    /* max-width: 320px;
+    max-height: 664px; */
     background: #2e2f42;
     padding: 96px 0;
   }

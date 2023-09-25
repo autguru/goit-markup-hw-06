@@ -8,14 +8,11 @@
   .section-our-portfolio {
     background: #ffffff;
     padding-top: 96px 0;
-    max-width: 320px;
-    max-height: 2944px;
   }
 
-  .section-our-portfolio-container {
+  /* .section-our-portfolio-container {
     max-width: 288px;
-    /* max-height: 2752px; */
-  }
+  } */
 
   .section-portfolio-title {
     margin-bottom: 72px;

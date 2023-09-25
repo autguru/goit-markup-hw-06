@@ -70,9 +70,18 @@
     gap: 40px;
   }
 
+  .menu-li-mob-studio {
+    color: var(--OCEAN, #404bbf);
+    font-family: Roboto;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+  }
+
   .menu-li-mob {
     color: var(--NAVY-BLUE, #2e2f42);
-    font-family: Roboto;
     font-size: 36px;
     font-weight: 700;
     line-height: 1.11;
@@ -102,6 +111,7 @@
   }
 
   .adress-item-link-mob {
+    font-style: normal;
     text-transform: none;
     display: inline-flex;
     flex-direction: column;
