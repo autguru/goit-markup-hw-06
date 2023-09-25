@@ -77,11 +77,11 @@
     /* для плавної зміни прозорості і видимості елемента */
   }
 
-  /* .backdrop.is-open {
-        opacity: 1;
+  .backdrop.is-open {
+        opacity: 0;
         visibility: hidden;
         pointer-events: none;
-      }  */
+      }  
 
   .close-btn:hover,
   .close-btn:focus {

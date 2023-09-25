@@ -166,6 +166,7 @@
 
   .footer-container {
     /* margin-left: 80px; */
+    padding-left: 100px;
     gap: 72px 24px;
     display: flex;
     flex-direction: row;
@@ -185,7 +186,7 @@
   }
 
   .soc-list-style-footer {
-    margin-left: 24px;
+    /* margin-left: 24px; */
     margin-top: 16px;
     display: flex;
     gap: 16px;
@@ -298,7 +299,7 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    margin: 0 50px;
+    margin-left: 50px;
   }
 
   .icon-btn-sub {
@@ -324,7 +325,7 @@
     max-width: 288px;
     /* justify-content: center; */
     /* padding: 0 16px; */
-    /* margin-right: 76px; */
+    margin-right: 76px;
   }
 
   .logotype-footer-style {
@@ -343,10 +344,15 @@
   }
 
   .socseti-div {
-    margin: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
   }
 
   .soc-seti-p {
+    margin-bottom: 16px;
+
     text-align: start;
     color: #fff;
     font-size: 16px;
@@ -465,7 +471,7 @@
     line-height: 1.5;
     letter-spacing: 0.04em;
     cursor: pointer;
-    /* margin: 0 50px; */
+    margin: 0;
   }
 
   .icon-btn-sub {
